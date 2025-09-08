@@ -1,2 +1,144 @@
-# game-site
-njajal tok
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jasa Pengisian Game Nintendo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+      color: #333;
+    }
+    header {
+      background: #e60012;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: #f8f8f8;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+    }
+    .btn {
+      background: #e60012;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      margin: 0.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section h3 {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 1.8rem;
+      color: #e60012;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    footer {
+      background: #333;
+      color: #ddd;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GameCenter Nintendo</h1>
+    <nav>
+      <a href="#layanan">Layanan</a>
+      <a href="#game">Daftar Game</a>
+      <a href="#harga">Harga</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Isi Game Nintendo Favoritmu & Update Software dengan Mudah!</h2>
+    <p>Ribuan judul game, update terbaru, tanpa ribet. Cukup pesan, kami urus sisanya.</p>
+    <button class="btn">Lihat Daftar Game</button>
+    <button class="btn">Pesan Sekarang</button>
+  </section>
+
+  <section class="section" id="layanan">
+    <h3>Layanan Utama</h3>
+    <div class="cards">
+      <div class="card">🎮<br><b>Pengisian Game</b><br>Nintendo Switch, 3DS, Wii U</div>
+      <div class="card">🔄<br><b>Update Software</b><br>Versi terbaru & stabil</div>
+      <div class="card">⚡<br><b>Proses Cepat</b><br>Hitungan menit saja</div>
+      <div class="card">💳<br><b>Pembayaran Mudah</b><br>E-wallet & transfer bank</div>
+    </div>
+  </section>
+
+  <section class="section" id="game">
+    <h3>Daftar Game Populer</h3>
+    <div class="cards">
+      <div class="card"><b>Zelda: Breath of the Wild</b></div>
+      <div class="card"><b>Super Mario Odyssey</b></div>
+      <div class="card"><b>Pokémon Arceus</b></div>
+      <div class="card"><b>Animal Crossing</b></div>
+    </div>
+  </section>
+
+  <section class="section" id="harga">
+    <h3>Harga & Paket</h3>
+    <div class="cards">
+      <div class="card"><b>Paket 1-5 Game</b><br>Rp 50.000</div>
+      <div class="card"><b>Paket 10 Game</b><br>Rp 90.000</div>
+      <div class="card"><b>Update Software</b><br>Rp 30.000</div>
+    </div>
+  </section>
+
+  <section class="section" id="kontak">
+    <h3>Kontak Kami</h3>
+    <p style="text-align:center;">Hubungi via WhatsApp: <b>0812-3456-7890</b><br>Email: <b>gamecenter@nintendo.id</b></p>
+  </section>
+
+  <footer>
+    <p>© 2025 GameCenter Nintendo. Nintendo adalah merek dagang milik Nintendo Co., Ltd. Website ini tidak berafiliasi resmi dengan Nintendo.</p>
+  </footer>
+</body>
+</html>
